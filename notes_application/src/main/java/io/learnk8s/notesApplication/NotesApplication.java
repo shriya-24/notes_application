@@ -133,7 +133,7 @@ class NotesController {
         if (publish != null && publish.equals("Publish")) {
             saveNote(description, model);
             getAllNotes(model);
-            return "redirect:/";
+            return "redirect:/getNotes";
         }
         if (upload != null && upload.equals("Upload")) {
             if (file != null && file.getOriginalFilename() != null &&
