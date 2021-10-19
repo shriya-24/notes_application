@@ -8,8 +8,6 @@
 <h4>${title}</h4>
 <a href="/getNotes">All Notes</a>  
 <br/><br/>
-<a href="/postNote">Create Note</a>  
-<br/><br/>
 <div>Copyright © Shriya, Subham</div>
 
 </body>
